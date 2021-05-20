@@ -1,0 +1,32 @@
+{
+  "name": "cluster-video-processing",
+  "version": "1.0.0",
+  "description": "A simple example for visualization of a cluster for video processing using nodejs and socket.io",
+  "main": "Client.js",
+  "scripts": {
+    "broker": "node Broker.js",
+    "processing": "node ProcessingServer.js",
+    "client": "node Client.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kingarturs/cluster-video-processing.git"
+  },
+  "keywords": [
+    "node",
+    "socket.io"
+  ],
+  "author": "Luis Arturo García González",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Kingarturs/cluster-video-processing/issues"
+  },
+  "homepage": "https://github.com/Kingarturs/cluster-video-processing#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "ffmpeg": "0.0.4",
+    "socket.io": "^4.1.1",
+    "socket.io-client": "^4.1.1",
+    "socket.io-stream": "^0.9.1"
+  }
+}
